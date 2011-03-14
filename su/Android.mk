@@ -11,7 +11,8 @@ LOCAL_SHARED_LIBRARIES := \
     libsqlite \
     libcutils \
     libbinder \
-    libutils
+    libutils \
+    libandroid_runtime
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
 
